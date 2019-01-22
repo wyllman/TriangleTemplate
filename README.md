@@ -6,12 +6,12 @@ Basado en ["Triangle Free CSS Template"](http://preview.astemplates.com/itemprev
 
 Recursos  
 --------  
-
-BootStrap 4.2.1
-Jquery 3.3.1
-Font-Awesome 5.6.3
-Animate.css 3.7.0
-WOW 1.3.0
+  
+BootStrap 4.2.1  
+Jquery 3.3.1  
+Font-Awesome 5.6.3  
+Animate.css 3.7.0  
+WOW 1.3.0  
   
 Enlaces  
 -------  
