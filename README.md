@@ -19,8 +19,10 @@ Enlaces
 [Bootstrap](https://getbootstrap.com/)  
 [Jquery](https://jquery.com/)  
 [Font-Awesome](https://fontawesome.com/)  
+  
 [Animate.CSS](https://daneden.github.io/animate.css/)
-  - [GitHub](https://github.com/daneden/animate.css)  
+  - [GitHub](https://github.com/daneden/animate.css) 
+
 [WoW](https://wowjs.uk)  
   - [GitHub](https://github.com/graingert/WOW)  
   
