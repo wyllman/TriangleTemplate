@@ -1,0 +1,184 @@
+/********************************************************/
+/* Wyllman Triangle Template                            */
+/* Version: 0.0.1                                       */
+/*                                                      */
+/* Description: Common styles for html base structures  */
+/********************************************************/
+
+
+/************************************/
+/*--- Basic html styles          ---*/
+/************************************/
+html {
+ 	height: 100%;
+}
+
+body {
+ 	height: 100%;
+
+ 	background-color: coral;
+ 	color : black;
+
+ 	font-family: "Times New Roman", Times, serif;
+ 	font-weight: 300;
+ 	font-size: 14px;
+ 	line-height: 22px;
+}
+
+
+/************************************/
+/*--- Basic Template styles      ---*/
+/************************************/
+div#wt_dev_test {
+    z-index: 3500;
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;*/
+    
+    display: none;
+}
+
+div#wt_loader_wrapper {
+    z-index: 2500;
+    
+    background: rgba(128, 128, 128, 0.5);
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;*/
+}
+
+div#wt_modals_wrapper {
+    z-index: 2000;
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;*/
+    
+    display: none;
+}
+
+div#wt_content_wrapper {
+    z-index: 0;
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;*/
+    
+    display: none;
+}
+
+/************************************/
+/*--- Basic Loader Layer styles  ---*/
+/************************************/
+div#wt_loader_wrapper > div#wt_loader_spinner {
+    z-index: 3000;
+    
+    position: absolute;
+    top: 40%;
+    height: 10%;
+    width: 100%;
+    
+    background: red;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+div#wt_loader_wrapper > div#wt_loader_header {
+    z-index: 2600;
+    
+    position: absolute;
+    top: 0px;
+    height: 50%;
+    width: 100%;
+    
+    background: green;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+div#wt_loader_wrapper > div#wt_loader_back {
+    z-index: 2501;
+    
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    
+    background: white;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+/************************************/
+/*--- Common bootstrap overwrite ---*/
+/************************************/
+a {
+    color: #C03035;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #4FCCCD;
+}
+
+a:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition:  300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
