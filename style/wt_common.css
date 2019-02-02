@@ -26,6 +26,8 @@ body {
 }
 
 
+/*======================================================================*/
+
 /************************************/
 /*--- Basic Template styles      ---*/
 /************************************/
@@ -65,6 +67,8 @@ div#wt_loader_wrapper {
     border-style: solid;
     border-width: 2px;
     border-color: blue;*/
+    
+    display: none;
 }
 
 div#wt_modals_wrapper {
@@ -100,15 +104,18 @@ div#wt_content_wrapper {
     
     border-style: solid;
     border-width: 4px;
-    border-color: black;*/
+    border-color: black;
     
-    display: none;
+    display: none;*/
 }
+
 
 /************************************/
 /*--- Basic Loader Layer styles  ---*/
 /************************************/
-div#wt_loader_wrapper > div#wt_loader_spinner {
+
+/* div#wt_loader_wrapper > div#wt_loader_spinner */
+div#wt_loader_spinner {
     z-index: 3000;
     
     position: absolute;
@@ -125,7 +132,8 @@ div#wt_loader_wrapper > div#wt_loader_spinner {
     border-color: blue;
 }
 
-div#wt_loader_wrapper > div#wt_loader_header {
+/* div#wt_loader_wrapper > div#wt_loader_header */
+div#wt_loader_header {
     z-index: 2600;
     
     position: absolute;
@@ -142,7 +150,8 @@ div#wt_loader_wrapper > div#wt_loader_header {
     border-color: blue;
 }
 
-div#wt_loader_wrapper > div#wt_loader_back {
+/* div#wt_loader_wrapper > div#wt_loader_back */
+div#wt_loader_back {
     z-index: 2501;
     
     position: absolute;
@@ -158,6 +167,141 @@ div#wt_loader_wrapper > div#wt_loader_back {
     border-width: 1px;
     border-color: blue;
 }
+
+
+/************************************/
+/*--- Basic Modal Layer styles   ---*/
+/************************************/
+
+/* div#wt_modals_wrapper > div#wt_modals_message */
+div#wt_modals_message {
+    z-index: 2100;
+    
+    position: absolute;
+    top: 25%;
+    height: 50%;
+    width: 100%;
+    
+    background: blue;
+    color: white;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_modals_wrapper > div#wt_modals_back */
+div#wt_modals_back {
+    z-index: 2001;
+    
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    
+    background: white;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+
+/************************************/
+/*--- Basic Loader Layer styles  ---*/
+/************************************/
+
+/* div#wt_content_wrapper > div#wt_content_notifications */
+div#wt_content_notifications {
+    z-index: 1500;
+    
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_content_wrapper > div#wt_content_sections */
+div#wt_content_sections {
+    z-index: 100;
+    
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_header */
+div#wt_content_header {
+    z-index: 101;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_main */
+div#wt_content_main {
+    z-index: 101;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_footer */
+div#wt_content_footer {
+    z-index: 101;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+/* div#wt_content_wrapper > div#wt_content_back */
+div#wt_content_back {
+    z-index: 1;
+    
+    position: absolute;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    
+    background: white;
+    
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+
+
+/*======================================================================*/
+
 /************************************/
 /*--- Common bootstrap overwrite ---*/
 /************************************/
