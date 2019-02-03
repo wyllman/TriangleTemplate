@@ -1,9 +1,13 @@
-TriangleTemplate  
-================  
-
-Template web html5, css3 y javascript.  
-Basado en ["Triangle Free CSS Template"](http://preview.astemplates.com/itempreview/538), autor: [themeum](https://www.themeum.com/)  
-
+Wyllman Triangle Template  
+=========================    
+  
+Author: Guillermo R.P.  
+Versión: 0.0.2  
+  
+Descripción: Template web html5, css3 y javascript diseñado para el uso personal y académico.  
+  
+Basado en ["Triangle Free CSS Template"](http://preview.astemplates.com/itempreview/538), autor: [themeum](https://www.themeum.com/)   
+  
 Recursos  
 --------  
   
@@ -20,15 +24,15 @@ Enlaces
 [Jquery](https://jquery.com/)  
 [Font-Awesome](https://fontawesome.com/)  
   
-[Animate.CSS](https://daneden.github.io/animate.css/)
-  - [GitHub](https://github.com/daneden/animate.css) 
-
+[Animate.CSS](https://daneden.github.io/animate.css/)  
+  - [GitHub](https://github.com/daneden/animate.css)  
+  
 [WoW](https://wowjs.uk)  
   - [GitHub](https://github.com/graingert/WOW)  
   
-
+  
 Enlaces de ayuda  
 ----------------  
   
-  - [Bootstrap trying to load map file. How to disable it? Do I need to do it?](https://stackoverflow.com/questions/21773376/bootstrap-trying-to-load-map-file-how-to-disable-it-do-i-need-to-do-it) 
+  - [Bootstrap trying to load map file. How to disable it? Do I need to do it?](https://stackoverflow.com/questions/21773376/bootstrap-trying-to-load-map-file-how-to-disable-it-do-i-need-to-do-it)  
 

@@ -1,0 +1,11 @@
+/********************************************************/
+/* Wyllman Triangle Template                            */
+/* Author: Guillermo R. P. (Wyllman)                    */
+/* Version: 0.0.1                                       */
+/*                                                      */
+/* Description: Base template component styles          */
+/********************************************************/
+
+html > body {
+    color: black;
+}
