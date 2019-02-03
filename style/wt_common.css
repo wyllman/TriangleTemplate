@@ -16,7 +16,7 @@ html {
 body {
  	height: 100%;
 
- 	background-color: coral;
+ 	background-color: white;
  	color : black;
 
  	font-family: "Times New Roman", Times, serif;
@@ -27,7 +27,6 @@ body {
 
 
 /*======================================================================*/
-
 /************************************/
 /*--- Basic Template styles      ---*/
 /************************************/
@@ -38,37 +37,17 @@ div#wt_dev_test {
     height: 100%;
     width: 100%;
     
-    /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: green;*/
-    
-    display: none;
+    /*display: none;*/
 }
 
 div#wt_loader_wrapper {
     z-index: 2500;
     
-    background: rgba(128, 128, 128, 0.5);
-    
     position: fixed;
     height: 100%;
     width: 100%;
     
-    /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;*/
-    
-    display: none;
+    /*display: none;*/
 }
 
 div#wt_modals_wrapper {
@@ -78,16 +57,7 @@ div#wt_modals_wrapper {
     height: 100%;
     width: 100%;
     
-    /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;*/
-    
-    display: none;
+    /*display: none;*/
 }
 
 div#wt_content_wrapper {
@@ -97,16 +67,7 @@ div#wt_content_wrapper {
     height: 100%;
     width: 100%;
     
-    /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
-    
-    display: none;*/
+    /*display: none;*/
 }
 
 
@@ -122,14 +83,6 @@ div#wt_loader_spinner {
     top: 40%;
     height: 10%;
     width: 100%;
-    
-    background: red;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_loader_wrapper > div#wt_loader_header */
@@ -140,14 +93,6 @@ div#wt_loader_header {
     top: 0px;
     height: 50%;
     width: 100%;
-    
-    background: green;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_loader_wrapper > div#wt_loader_back */
@@ -159,13 +104,7 @@ div#wt_loader_back {
     height: 100%;
     width: 100%;
     
-    background: white;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
+    /*background: white;*/
 }
 
 
@@ -181,15 +120,6 @@ div#wt_modals_message {
     top: 25%;
     height: 50%;
     width: 100%;
-    
-    background: blue;
-    color: white;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_modals_wrapper > div#wt_modals_back */
@@ -201,18 +131,12 @@ div#wt_modals_back {
     height: 100%;
     width: 100%;
     
-    background: white;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
+    /*background: white;*/
 }
 
 
 /************************************/
-/*--- Basic Loader Layer styles  ---*/
+/*--- Basic Content Layer styles ---*/
 /************************************/
 
 /* div#wt_content_wrapper > div#wt_content_notifications */
@@ -223,12 +147,6 @@ div#wt_content_notifications {
     top:0px;
     height: 100%;
     width: 100%;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_content_wrapper > div#wt_content_sections */
@@ -239,45 +157,21 @@ div#wt_content_sections {
     top:0px;
     height: 100%;
     width: 100%;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_header */
 div#wt_content_header {
     z-index: 101;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_main */
 div#wt_content_main {
     z-index: 101;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_content_wrapper > div#wt_content_sections > div#wt_content_footer */
 div#wt_content_footer {
     z-index: 101;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
 }
 
 /* div#wt_content_wrapper > div#wt_content_back */
@@ -289,19 +183,11 @@ div#wt_content_back {
     height: 100%;
     width: 100%;
     
-    background: white;
-    
-    box-sizing: border-box;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: blue;
+    /*background: white;*/
 }
 
 
-
 /*======================================================================*/
-
 /************************************/
 /*--- Common bootstrap overwrite ---*/
 /************************************/
@@ -325,4 +211,33 @@ a {
     -moz-transition: 300ms;
     -o-transition: 300ms;
     transition: 300ms;
+}
+
+
+/*======================================================================*/
+/************************************/
+/*--- Develop styles             ---*/
+/************************************/
+div.dev {
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
+
+div.dev > div {
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+}
+
+div.dev > div > div {
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
 }
